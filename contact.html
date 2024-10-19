@@ -17,7 +17,35 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <h2>Contact Me:</h2>
+
+    <section>
+        <h2>Contact Me:</h2>
+        <form>
+            <label for="name">
+                Name *
+                <input type="text" id="name" placeholder="Enter your name">
+            </label>
+            <label for="email">
+                Email Address *
+                <input type="text" id="email" placeholder="Enter your email">
+            </label>
+            <label for="select">
+                Reason for Contact *
+                <select id="select">
+                    <option value="">--Select Reason--</option>
+                    <option value="saying_hi">Saying Hi</option>
+                    <option value="looking_for_a_contractor">Looking for a Contractor</option>
+                    <option value="interested_in_an_interview">Interested in an Interview</option>
+                    <option value="general_question">General Question</option>
+                </select>
+            </label>
+            <label for="message">
+                Message:
+                <textarea id="message" cols="30" rows="8" placeholder="Type your message here..." ></textarea>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
     
 </body>
 </html>
