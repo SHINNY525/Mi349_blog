@@ -7,8 +7,16 @@ body {
 }
 
 
-header {
-    
+nav {
+    margin: 0;
+    background: #E3D4E3;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px dotted #242424;
+}
+
+#blog {
+
 }
 
 
