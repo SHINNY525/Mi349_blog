@@ -31,18 +31,43 @@ ul li {
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
 
 #blog {
     margin: 15px 60px 0 60px;
     border-top: 1px solid #242424;
 }
 
-
-.blog-post1 {
-    
+.blog-post1{
+    margin: 25px 0 0 0;
 }
 
+.blog-text1 {
+    display: flex;
+    gap: 30px;
+}
 
-.blog-post2 {
-    
+table{
+    border-spacing: 40px 3px;
+    float: left;
+}
+
+.caption-for-table{
+    font-style: italic;
+}
+
+.blog-post2{
+    margin: 100px 0 0 0;
+}
+
+.blog-text2 {
+    display: flex;
+    gap: 30px;
+}
+
+.signup-form{
+    margin: 30px 60px 30px 60px;
+    border-top: 1px solid #242424;
 }
