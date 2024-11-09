@@ -82,10 +82,20 @@ table{
 }
 
 #contact-information{
-    margin: 15px 60px 0 60px;
+    margin: 15px 60px 60px 60px;
     border-top: 1px solid #242424;
 }
 
-.favorite-things{
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.submit-button{
+    align-self: flex-start;
+}
+
+.favorite-things{
+    line-height: 1.5em;
 }
