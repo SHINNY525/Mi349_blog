@@ -20,13 +20,13 @@ nav {
     top: 0px;
 }
 
-ul {
+.navigation {
     list-style: none;
     font-size: 18px;
     display: flex;
 }
 
-ul li {
+.navigation li {
     flex: 1;
     text-align: center;
 }
@@ -70,4 +70,8 @@ table{
 .signup-form{
     margin: 30px 60px 30px 60px;
     border-top: 1px solid #242424;
+}
+
+.favorite-things{
+
 }
